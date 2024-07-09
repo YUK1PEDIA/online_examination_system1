@@ -44,6 +44,8 @@ import TreeSelect from '@/components/TreeSelect'
 // 字典标签组件
 import DictTag from '@/components/DictTag'
 
+import OssImageUpload from "@/components/ImageUpload/OssImageUpload"
+
 const app = createApp(App)
 
 // 全局方法挂载
@@ -65,6 +67,7 @@ app.component('ImageUpload', ImageUpload)
 app.component('ImagePreview', ImagePreview)
 app.component('RightToolbar', RightToolbar)
 app.component('Editor', Editor)
+app.component('OssImageUpload', OssImageUpload)
 
 app.use(router)
 app.use(store)
