@@ -1,6 +1,8 @@
 import { createWebHistory, createRouter } from 'vue-router'
 /* Layout */
 import Layout from '@/layout'
+import ChooseSubject from '../views/exam/test/choose_subject.vue'
+import ExamPage from '../views/exam/test/ExamPage.vue'
 
 /**
  * Note: 路由配置项
@@ -173,3 +175,5 @@ const router = createRouter({
 });
 
 export default router;
+
+
